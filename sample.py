@@ -7,3 +7,8 @@ x=10
 y=20        
 z=x+y
 print("Sum=" , z)
+## A1 Function to add two numbers 
+def add(a,b):
+    return a+b
+result=add(5,10)
+print("Result=" , result)
