@@ -12,3 +12,13 @@ def add(a,b):
     return a+b
 result=add(5,10)
 print("Result=" , result)
+## A2 Function to find the factorial of a number
+try:
+    num1=10
+    num2=0
+    result=num1/num2
+    print("Result=" , result)
+
+except ZeroDivisionError:
+    print("Error: Division by zero is not allowed.")
+
